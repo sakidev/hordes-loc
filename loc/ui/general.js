@@ -10,8 +10,8 @@ export default {
     es: 'Bien',
     tr: 'Tamam',
     nl: 'Okee',
-    pt: 'Claro.',
-    pl: 'Dobrze.',      // TODO: shorten
+    pt: 'Claro',
+    pl: 'Dobrze',
     ht: 'Dakò',
     ko: '오케이',
     it: 'Okay',
@@ -20,7 +20,8 @@ export default {
     bg: 'Добре',
     el: 'εντάξει',
     tl: 'Sige',
-    ro: 'Okay'
+    ro: 'Okay',
+    da: 'Okay'
   },
 
   back: {
@@ -30,12 +31,12 @@ export default {
     hi: 'पिछला',
     fr: 'Retour',
     de: 'Zurück',
-    es: 'Atras',
+    es: 'Regresar',
     nl: 'Terug',
     tr: 'Geri',
     pt: 'Voltar',
     pl: 'Wstecz',
-    ht: 'Retounen',  // TODO: shorten
+    ht: 'Tounen',
     ko: '뒤로',
     it: 'Dietro',
     cs: 'Zadní',
@@ -43,7 +44,8 @@ export default {
     bg: 'Oбратно',
     el: 'Πίσω',
     tl: 'Bumalik',
-    ro: 'Înapoi'
+    ro: 'Înapoi',
+    da: 'Tilbage'
   },
 
   accept: {
@@ -66,7 +68,8 @@ export default {
     bg: 'Приемам',
     el: 'Αποδέχομαι',
     tl: 'Tanggapin',
-    ro: 'Acceptă'
+    ro: 'Acceptă',
+    da: 'Acceptere'
   },
 
   cancel: {
@@ -87,18 +90,19 @@ export default {
     ht: 'Anile',
     ko: '취소',
     ja: 'キャンセル',
-    hi: 'रद्द करना',
-    sv: 'Annullera'
+    hi: 'कैंसल',
+    sv: 'Annullera',
+    da: 'Afbestille'
   },
 
   decline: {
     en: 'Decline',
     sv: 'Nedgång',
     ru: 'Отказать',
-    hi: 'नहीं',
+    hi: 'मना करें',
     fr: 'Déclin',
     de: 'Ablehnen',
-    es: 'Disminución',
+    es: 'Rechazar',
     nl: 'Afwijzen',
     tr: 'Düşüş',
     pt: 'Declínio',
@@ -107,11 +111,12 @@ export default {
     ko: '쇠퇴',
     it: 'Diminuzione',
     cs: 'Pokles',
-    ja: '低下',
+    ja: '断る',
     bg: 'Отказвам',
     el: 'Πτώση',
     tl: 'Tanggihan',
-    ro: 'Refuză'
+    ro: 'Refuză',
+    da: 'Nedgang'
   },
 
   close: {
@@ -134,6 +139,7 @@ export default {
     bg: 'Затвори',
     el: 'Κοντά',
     tl: 'Isara',
-    ro: 'Închide'
+    ro: 'Închide',
+    da: 'Luk'
   }
 }

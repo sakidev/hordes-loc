@@ -1,49 +1,55 @@
 // classes are exported as array since the game typically stores class as integer
 import archer from './classes/archer.js'
 import mage from './classes/mage.js'
+import monster from './classes/monster.js'
+import npc from './classes/npc.js'
 import shaman from './classes/shaman.js'
 import warrior from './classes/warrior.js'
 const classes = [
   warrior,
   mage,
+  archer,
   shaman,
-  archer ]
+  npc,
+  monster]
 
 // Items
+import amulet from './items/amulet.js'
 import armlet from './items/armlet.js'
 import armor from './items/armor.js'
 import bag from './items/bag.js'
+import book from './items/book.js'
 import boot from './items/boot.js'
 import bow from './items/bow.js'
-import gem from './items/gem.js'
 import glove from './items/glove.js'
 import hammer from './items/hammer.js'
-import misc from './misc.js'
+import misc from './items/misc.js'
 import orb from './items/orb.js'
 import quiver from './items/quiver.js'
 import ring from './items/ring.js'
+import rune from './items/rune.js'
 import shield from './items/shield.js'
 import staff from './items/staff.js'
 import sword from './items/sword.js'
-import talisman from './items/talisman.js'
 import totem from './items/totem.js'
 const items = {
+  amulet,
   armlet,
   bag,
+  book,
   boot,
   bow,
   armor,
-  gem,
   glove,
   hammer,
   misc,
   orb,
   quiver,
   ring,
+  rune,
   shield,
   staff,
   sword,
-  talisman,
   totem
 }
 
@@ -52,7 +58,8 @@ import bloodlust from './factions/bloodlust.js'
 import vanguard from './factions/vanguard.js'
 const factions = [
   vanguard,
-  bloodlust]
+  bloodlust,
+  { name: {$$: 'Neutral'} }]
 
 // Npcs
 import blacksmith from './npcs/blacksmith.js'
@@ -74,6 +81,7 @@ import * as stashui from './ui/stash.js'
 import charmenu from './ui/charmenu.js'
 import chat from './ui/chat.js'
 import clan from './ui/clan.js'
+import death from './ui/death.js'
 import general from './ui/general.js'
 import inventory from './ui/inventory.js'
 import party from './ui/party.js'
@@ -89,6 +97,7 @@ const ui = {
   party,
   stash   : stashui.default,
   stats,
+  death,
   ...general }
 
 export default {

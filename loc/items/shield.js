@@ -21,33 +21,8 @@ export default [
       sv: 'Bokstavligen en fyrkantig planka av trä.',
       ko: '말 그대로 나무의 정연한 판자.',
       ro: 'Literalmente o scândură pătrată de lemn.',
-      tr: 'Kelimenin tam anlamıyla bir kare ahşap parçası.'
-    }
-  },
-
-  {
-    name       : {$$: 'Old Bulwark' },
-    description: {
-      en: 'Some farmer has managed to construct a cute little shield.',
-      ru: 'Какому-то фермеру удалось создать милый маленький щит.',
-      es: 'Algún granjero ha conseguido construir un bonito escudo.',
-      de: 'Einem Landwirt ist es gelungen, einen süßen kleinen Schild zu bauen.',
-      fr: 'Un fermier a réussi à construire un joli petit bouclier.',
-      hi: 'किसी किसान के एक छोटी सी ढाल बना ही ली।',
-      it: 'Qualche contadino è riuscito a costruire un piccolo scudo carino.',
-      pt: 'Algum agricultor conseguiu construir um pequeno e bonito escudo.',
-      nl: 'Sommige boeren zijn erin geslaagd om een schattig schildje te bouwen.',
-      tl: 'Ang ilang magsasaka ay nakapagtatag ng isang nakatutuwang maliit na kalasag.',
-      bg: 'Някои фермери са успели да построят сладък малък щит.',
-      el: 'Κάποιος αγρότης κατάφερε να κατασκευάσει μια χαριτωμένη μικρή ασπίδα.',
-      pl: 'Jednemu z rolników udało się zbudować ładną małą tarczę.',
-      ht: 'Gen kèk kiltivatè jere yo konstwi yon bèl plak pwotèj ti kras.',
-      cs: 'Složitý štít vyrobený ze tří kovových kusů. Solidní.',
-      ja: '何人かの農夫はかわいい小さな盾を建設することに成功した。',
-      sv: 'En del bonde har lyckats konstruera en söt liten sköld.',
-      ko: '어떤 농부는 귀여운 작은 방패를 만들 수있었습니다.',
-      ro: 'Un fermier a reușit să construiască un scut mic drăguț.',
-      tr: 'Bazı çiftçi sevimli küçük bir kalkan yaptı.'
+      tr: 'Kelimenin tam anlamıyla bir kare ahşap parçası.',
+      da: 'Bogstaveligt talt en firkantet skovl af træ.'
     }
   },
 
@@ -58,7 +33,7 @@ export default [
       ru: 'Плавленый железный круг залитый бронзой. Довольно хлипкий.',
       es: 'Anillo de hierro fundido relleno de bronce. Frágil en su fabricación.',
       de: 'Geschmolzener Eisenring mit Bronzefüllung. Flimsy in seiner Entstehung.',
-      fr: 'Bague en fonte de fer remplie de bronze. Frêle dans sa fabrication.',
+      fr: 'Un cercle en fonte de fer rempli de bronze. Frêle dans sa fabrication.',
       tl: 'Nalikom na singsing na bakal na puno ng tanso. Mahina sa paggawa nito.',
       bg: 'Излята желязна пръстен с бронз. Слаб в своето създаване.',
       el: 'Σφυρήλατο σίδερο δαχτυλίδι γεμάτο με χαλκό. Αδύνατο να το κάνει.',
@@ -73,7 +48,35 @@ export default [
       sv: 'Smältjärnsring fylld med brons. Spetsig i sin framställning.',
       ko: '철 고리 청동 가득합니다. 어색한 제작.',
       ro: 'Inel de fier topit umplut cu bronz. Făcut superficial.',
-      tr: 'Bronz ile doldurulmuş eritilmiş demir halka. İyi yapılmış değil.'
+      tr: 'Bronz ile doldurulmuş eritilmiş demir halka. İyi yapılmış değil.',
+      da: 'Smeltet jernring fyldt med bronze. Svimlende i sin fremstilling.'
+    }
+  },
+
+  {
+    name       : {$$: 'Old Bulwark' },
+    description: {
+      en: 'Some farmer has managed to construct a cute little shield.',
+      ru: 'Какому-то фермеру удалось создать милый маленький щит.',
+      es: 'Algún granjero ha conseguido construir un bonito escudo.',
+      de: 'Einem Landwirt ist es gelungen, einen süßen kleinen Schild zu bauen.',
+      fr: 'Un fermier a réussi à construire un joli petit bouclier.',
+      hi: 'किसी किसान ने एक छोटी सी ढाल बना ही ली।',
+      it: 'Qualche contadino è riuscito a costruire un piccolo scudo carino.',
+      pt: 'Algum agricultor conseguiu construir um pequeno e bonito escudo.',
+      nl: 'Sommige boeren zijn erin geslaagd om een schattig schildje te bouwen.',
+      tl: 'Ang ilang magsasaka ay nakapagtatag ng isang nakatutuwang maliit na kalasag.',
+      bg: 'Някои фермери са успели да построят сладък малък щит.',
+      el: 'Κάποιος αγρότης κατάφερε να κατασκευάσει μια χαριτωμένη μικρή ασπίδα.',
+      pl: 'Jednemu z rolników udało się zbudować ładną małą tarczę.',
+      ht: 'Gen kèk kiltivatè jere yo konstwi yon bèl plak pwotèj ti kras.',
+      cs: 'Složitý štít vyrobený ze tří kovových kusů. Solidní.',
+      ja: '何人かの農夫はかわいい小さな盾を建設することに成功した。',
+      sv: 'En del bonde har lyckats konstruera en söt liten sköld.',
+      ko: '어떤 농부는 귀여운 작은 방패를 만들 수있었습니다.',
+      ro: 'Un fermier a reușit să construiască un scut mic drăguț.',
+      tr: 'Bazı çiftçi sevimli küçük bir kalkan yaptı.',
+      da: 'Nogle landmænd har formået at konstruere et sødt lille skjold.'
     }
   },
 
@@ -99,12 +102,13 @@ export default [
       sv: 'Invecklad sköld gjord av tre solida metallstycken. Kraftig.',
       ko: '세 개의 단단한 금속 조각으로 만들어진 복잡한 방패. 견고한.',
       ro: 'Scut complicat făcut din trei piese de metal solid. Robust.',
-      tr: 'Üç katı metal parçadan oluşan karmaşık Kalkan. Sağlam bir kalkan.'
+      tr: 'Üç katı metal parçadan oluşan karmaşık Kalkan. Sağlam bir kalkan.',
+      da: 'Indviklet skjold lavet af tre faste metalstykker. Robust.'
     }
   },
 
   {
-    name       : {$$: 'Darkmetal Pavis' },
+    name       : {$$: 'Darkmetal Shield' },
     description: {
       en: 'Tall shield guarding your entire body. Only the most cunning of blows can evade its protection.',
       ru: 'Высокий щит, защищая всё тело. Только самый хитрый из ударов может пробить его защиту.',
@@ -118,50 +122,54 @@ export default [
       sv: 'Hög sköld skyddar hela kroppen. Bara de mest slöseri av slag kan undvika sitt skydd.',
       ht: 'Gwo plak pwotèj gad palè tout kò ou. Se sèlman pi rize a nan kou ka sove pwoteksyon li yo.',
       it: 'Uno scudo alto a guardia di tutto il tuo corpo. Solo il più astuto dei colpi può eludere la sua protezione.',
-      hi: 'लंबा कवच आपके पूरे शरीर की रखवाली करता है। केवल धमाकों की सबसे चालाक अपनी सुरक्षा से बच सकती है।',
+      hi: 'लंबा कवच जो आपके पूरे शरीर की रखवाली करता है। सबसे चालाक धमाके ही इसके पार जा सकते है।',
       tl: 'Mataas na kalasag na nagbabantay sa iyong buong katawan. Tanging ang pinaka-tuso ng mga suntok ay maaaring maiwasan ang proteksyon nito.',
       el: 'Υψηλή ασπίδα που προστατεύει ολόκληρο το σώμα σας. Μόνο τα πιο πονηρά χτυπήματα μπορούν να αποφύγουν την προστασία τους.',
       bg: 'Висок щит, който пази цялото ви тяло. Само най-хитър удар може да избегне защитата му.',
       cs: 'Vysoký štít chrání celé tělo. Pouze ta nejchytřejší rána se může vyhnout jeho ochraně.',
       ja: '体全体を守る高いシールド。最も狡猾な一撃だけがその防御を回避することができます。',
-      tr: 'Tüm vücudunuzu koruyan uzun Kalkan. Sadece en kurnaz darbeler korumasından kaçabilir.'
+      tr: 'Tüm vücudunuzu koruyan uzun Kalkan. Sadece en kurnaz darbeler korumasından kaçabilir.',
+      da: 'Langt skærm bevogter hele din krop. Kun de mest snedige af slag kan undgå sin beskyttelse.',
+      ro: 'Scut înalt ce-ți păzește tot corpul. Doar cea mai vicleană lovitură poate scăpa de protecția lui.'
     }
   },
 
   {
-    name       : {$$: 'Royal Guard' },
+    name       : {$$: 'Spiked Warshield' },
     description: {
-      en: 'Gold and yellow patterns coat this shield, displaying your authority and power.',
-      ru: 'Золотые и желтые узоры покрывают этот щит, показывая ваш авторитет и силу.',
-      es: 'Patrones dorados y amarillos cubren este escudo, mostrando su autoridad y poder.',
-      fr: 'Des motifs dorés et jaunes recouvrent ce bouclier, démontrant votre autorité et votre pouvoir.',
-      de: 'Gold- und gelbe Muster umhüllen diesen Schild und zeigen deine Autorität und Macht.',
-      pt: 'Padrões dourados e amarelos revestem este escudo, mostrando sua autoridade e poder.',
-      ko: '금색과 노란색 무늬가이 방패를 덮어 당신의 권위와 힘을 보여줍니다.',
-      nl: 'Gouden en gele patronen bedekken dit schild en tonen je autoriteit en kracht.',
-      pl: 'Złote i żółte wzory pokrywają tę tarczę, pokazując twój autorytet i moc.',
-      sv: 'Guld och gult mönster täcker denna skärm, visar din myndighet och kraft.',
-      ht: 'Lò ak modèl jòn kouvri plak pwotèj sa a, montre otorite ou ak pouvwa.',
-      it: 'Modelli in oro e giallo ricoprono questo scudo, mostrando la tua autorità e il tuo potere.',
-      hi: 'सोना और पीला पैटर्न इस ढाल को कोट करते हैं, जो आपके अधिकार और शक्ति को प्रदर्शित करते हैं।',
-      tl: 'Ang ginto at dilaw na mga pattern ay sumisipsip ng kalasag na ito, na nagpapakita ng iyong kapangyarihan at kapangyarihan.',
-      el: 'Χρυσά και κίτρινα σχέδια καλύπτουν αυτή την ασπίδα, εμφανίζοντας την εξουσία και την εξουσία σας.',
-      bg: 'Злато и жълто модели покриват този щит, показвайки вашата власт и сила.',
-      cs: 'Zlaté a žluté vzory pokrývají tento štít a zobrazují vaši autoritu a moc.',
-      ja: '金と黄色の模様がこの盾を覆い、あなたの権威と力を表しています。',
-      tr: 'Altın ve sarı desenler bu kalkanı örter, otoritenizi ve gücünüzü gösterir.'
+      en: 'Silver spikes coat this shield, displaying your authority and power.',
+      ru: 'Серебряные покрывают этот щит, показывая ваш авторитет и силу.',
+      fr: 'Des pics d\'argent recouvrent ce bouclier, montrant votre autorité et votre puissance.',
+      de: 'Silberne Stacheln umhüllen diesen Schild und zeigen deine Autorität und Macht.',
+      pt: 'Padrões prata revestem este escudo, mostrando sua autoridade e poder.',
+      nl: 'Zilveren patronen bedekken dit schild en tonen je autoriteit en kracht.',
+      pl: 'Srebrne kolce pokrywają tę tarczę, pokazując twój autorytet i moc.',
+      sv: 'Silverpinnar täcker denna skärm, visar din myndighet och kraft.',
+      bg: 'Сребърен шип покриват този щит, показвайки вашата власт и сила.',
+      cs: 'Silver vzory pokrývají tento štít a zobrazují vaši autoritu a moc.',
+      da: 'Sølvpiger belægge dette skjold, der viser din autoritet og magt.',
+      ko: '은빛 스파이크가이 방패를 덮어 당신의 권위와 힘을 보여줍니다.',
+      ht: 'Silver Spikes rad plak pwotèj sa a, montre otorite ou ak pouvwa',
+      it: 'Spighe d\'argento rivestono questo scudo, mostrando la tua autorità e il tuo potere',
+      hi: 'इस पर लगे चाँदी के काटे आपकी ताक़त और प्रदिकरण का प्रसार करती है।',
+      tl: 'Ang spike ng pilak ay sumisipsip ng kalasag na ito, na nagpapakita ng iyong awtoridad at kapangyarihan',
+      el: 'Τα ασημένια καρφιά καλύπτουν αυτή την ασπίδα, επιδεικνύοντας την εξουσία και την εξουσία σας',
+      ja: '銀のスパイクがこの盾を覆い、あなたの権威と力を示しています',
+      tr: 'Gümüş çiviler bu kalkanı kaplar, otoritesini ve gücünü gösterir',
+      es: 'Picos de plata cubren este escudo, mostrando tu autoridad y poder.',
+      ro: 'Țepi de argint acoperă acest scut, etalându-ți autoritatea și puterea.'
     }
   },
 
   {
-    name       : {$$: 'Protectron' },
+    name       : {$$: 'Protecteron' },
     description: {
       en: 'Made from obsidian and steel. Someone sloppily attempted to paint it yellow.',
       ru: 'Изготовлен из обсидиана и стали. Кто-то небрежно попытался покрасить его в желтый цвет.',
       es: 'Hecho de obsidiana y acero. Alguien intentó descuidadamente pintarlo de amarillo.',
       de: 'Hergestellt aus Obsidian und Stahl. Jemand versuchte schlampig, es gelb zu malen.',
       fr: 'Fabriqué en obsidienne et en acier. Quelqu\'un a tenté de le peindre en jaune.',
-      hi: 'ओब्सीडियन और स्टील से बनाया गया है। किसी ने इसे पीले रंग में ढालने का प्रयास किया।',
+      hi: 'ओब्सीडियन और स्टील से बनाया गया है। इसे ठीक से पीला रंग दिया नहीं है।',
       it: 'Questo è fatto di ossidiana e acciaio. Qualcuno ha tentato disordinatamente di dipingerlo di giallo.',
       pt: 'Feito de obsidiana e aço. Alguém descuidadamente tentou pintá-lo de amarelo.',
       nl: 'Gemaakt van obsidiaan en staal. Iemand heeft slordig geprobeerd het geel te schilderen.',
@@ -175,17 +183,18 @@ export default [
       sv: 'Tillverkad av obsidian och stål. Någon försökte att måla den gul.',
       ko: '흑요석과 강철로 만들었습니다. 누군가는 그것을 황당하게 노란 색으로 칠하려고했습니다.',
       ro: 'Făcut din obsidian și oțel. Cineva neglijent a încercat să-l vopsească în galben.',
-      tr: 'Obsidyen ve çelikten yapılmıştır. Birisi sarı boyamak için kötü bir girişimde bulundu.'
+      tr: 'Obsidyen ve çelikten yapılmıştır. Birisi sarı boyamak için kötü bir girişimde bulundu.',
+      da: 'Lavet af obsidian og stål. Nogen slog forsøget på at male den gul.'
     }
   },
 
   {
-    name       : {$$: 'Cerberus' },
+    name       : {$$: 'Svalinn' },
     description: {
       en: 'Tall, dark and heavy shield enveloping your unprotected body with the power of ancient beasts once residing in these valleys.',
       ru: 'Высокий, темный и тяжелый щит, обволакивающий ваше незащищенное тело силой древних зверей, когда-то живущих в этих долинах.',
       es: 'Alto, oscuro y pesado escudo que envuelve tu cuerpo desprotegido con el poder de los antiguos fieras que alguna vez residieron en estos valles.',
-      fr: 'Grand, sombre et lourd bouclier enveloppant votre corps non protégé avec le pouvoir des anciens bêtes qui résidaient autrefois dans ces vallées.',
+      fr: 'Grand, sombre et lourd bouclier enveloppant votre corps non protégé avec le pouvoir des bêtes anciennes qui résidaient autrefois dans ces vallées.',
       de: 'Hoher, dunkler und schwerer Schild, der Ihren ungeschützten Körper mit der Kraft alter Tiere umhüllt, die einst in diesen Tälern lebten.',
       pt: 'Escudo alto, escuro e pesado que envolve o seu corpo desprotegido com o poder de antigos bestas que outrora residiam nestes vales.',
       ko: '한때이 골짜기에 있었던 고대 짐승의 힘으로 무방비 상태의 몸을 감싼 크고 짙은 무거운 방패.',
@@ -194,23 +203,25 @@ export default [
       sv: 'Hög, mörk och tung sköld som omsluter din oskyddade kropp med kraften i gamla djur, som en gång var bosatt i dessa dalar.',
       ht: 'Segondè, nwa ak gwo plak pwotèj boule anvlòp kò san pwoteksyon ou a ak pouvwa a nan bèt ansyen yon fwa k ap viv nan sa yo fon.',
       it: 'Scudo alto, scuro e pesante che avvolge il tuo corpo non protetto con il potere di bestie antiche che risiedevano in queste valli.',
-      hi: 'एक बार इन घाटियों में निवास करने वाले प्राचीन जानवरों की शक्ति से आपके असुरक्षित शरीर को ढकने वाला लंबा, गहरा और भारी कवच।',
+      hi: 'लम्बी, काली, और भारी ढाल जो आपके शरीर को इन वादियों ने रहने वाले प्राचीन राक्षसों के जादू में आवरित करकर आपकी रक्षा करती है।',
       tl: 'Ang matangkad, madilim at mabigat na kalasag na nagpapalibot sa iyong hindi protektadong katawan na may kapangyarihan ng sinaunang mga hayop na minsan ay naninirahan sa mga libis na ito.',
       el: 'Υψηλή, σκοτεινή και βαριά ασπίδα που περιβάλλει το απροστάτευτο σώμα σας με τη δύναμη των αρχαίων θηρίων που κάποτε κατοικούσαν σε αυτές τις κοιλάδες.',
       bg: 'Висок, тъмен и тежък щит, обгръщащ незащитеното ви тяло със силата на древни зверове, които някога са пребивавали в тези долини.',
       cs: 'Vysoký, tmavý a těžký štít obklopující vaše nechráněné tělo silou dávných bestií kdysi sídlících v těchto údolích.',
       ja: '背の高い、暗い、そして重い盾は、かつてこれらの谷に住んでいた古代の獣の力であなたの保護されていない体を包みます。',
-      tr: 'Uzun, karanlık ve ağır Kalkan. Korunmasız vücudunuz eski yaratıkların gücü ile kaplıdır.'
+      tr: 'Uzun, karanlık ve ağır Kalkan. Korunmasız vücudunuz eski yaratıkların gücü ile kaplıdır.',
+      da: 'Langt, mørkt og tungt skjold, der omslutter din ubeskyttede krop med magt fra gamle dyr, der engang er bosiddende i disse dale.',
+      ro: 'Un scut înalt, întunecat și greu, ce-ți învăluie corpul neprotejat cu puterea fiarelor străvechi care au locuit odată în aceste văi.'
     }
   },
 
   {
-    name       : {$$: 'Vilzorg' },
+    name       : {$$: 'Ancile' },
     description: {
       en: 'A sinister shield casting vile strands of shadows past the barriers of your foes mind to tarnish their memories.',
       ru: 'Зловещий щит, бросающий жуткие нити теней мимо барьеров ума ваших врагов, чтобы запятнать их воспоминания.',
       es: 'Un siniestro escudo que arroja viles hebras de sombras a través de las barreras de la mente de tus enemigos para empañar sus recuerdos.',
-      fr: 'Un sinistre bouclier qui projette des ombres viles sur les barrières de l\'esprit de vos ennemis pour ternir leurs souvenirs.',
+      fr: 'Un sinistre bouclier qui projette de viles ombres au delà des barrières de l\'esprit de vos ennemis pour ternir leurs souvenirs.',
       de: 'Ein finsterer Schild wirft abscheuliche Schattensträhnen vorbei an den Barrieren deines Feinden, um ihre Erinnerungen zu trüben.',
       pt: 'Um escudo sinistro que lança vil fios de sombras que ultrapassam as barreiras da mente dos teus inimigos para manchar as suas memórias.',
       ko: '적의 장벽을 지나서 사악한 방패가 그림자를 드리 우며 그들의 기억을 손상시킵니다.',
@@ -219,23 +230,25 @@ export default [
       sv: 'En otrevlig sköld gjuter avskyvärda strängar av skuggor förbi dina fienders hinder för att smita deras minnen.',
       ht: 'Yon plak pwotèjè dezas ki lanse aspè mechan ki genyen nan lonbraj sot pase baryè yo nan lide lènmi ou a tèrnir memwa yo.',
       it: 'Un sinistro scudo che proietta vili fili d\'ombra oltre le barriere della mente dei tuoi nemici per offuscare i loro ricordi.',
-      hi: 'एक भयावह ढाल अपनी यादों को धूमिल करने के लिए अपने दुश्मनों के दिमाग की बाधाओं के बीच परछाइयों के विली किस्में कास्टिंग करता है।',
+      hi: 'एक भयावह ढाल जो आपके दुश्मनो के मन के दरवाज़ों के पार अंधेरे के घिनौना आकार डाल देती है, जिस से उनकी यादें कलंकित हो जाए।',
       tl: 'Ang isang nakahihiya na kalasag na nagtatapon ng masasamang mga hibla ng mga anino na nakaligtaan ang mga hadlang ng iyong mga kaaway na isipin ang kanilang mga alaala.',
       el: 'Μια ασύνετη ασπίδα που χτυπά τα κακά σκέλη των σκιών πέρα ​​από τα εμπόδια των μυαλών των εχθρών σας για να αμαυρώσει τις αναμνήσεις τους.',
       bg: 'Зловещ щит, който хвърляше мръсни клони на сенки покрай бариерите на враговете ви, за да помрачи спомените им.',
       cs: 'Zlověstný štít vrhající hnusné prameny stínů kolem bariér vašich nepřátelských mozků, aby poskvrnil jejich vzpomínky.',
       ja: '邪悪な盾があなたの敵の心の壁を越えて邪悪な影の鎖を落として彼らの記憶を傷つけます。',
-      tr: 'Düşmana gölgeler getiren uğursuz bir kalkan. Düşmanınızın anılarını kaybetmesine neden olur.'
+      tr: 'Düşmana gölgeler getiren uğursuz bir kalkan. Düşmanınızın anılarını kaybetmesine neden olur.',
+      da: 'Et uhyggeligt skjold, som støder på skyggefulde tråde, går forbi dine fjenders sindssygdomme for at smitte deres minder.',
+      ro: 'Un scut sinistru ce aruncă șuvițe malefice de umbre dincolo de barierele minții dușmanilor tăi pentru a le păta amintirile.'
     }
   },
 
   {
-    name       : {$$: 'Rubio' },
+    name       : {$$: 'Aegis' },
     description: {
       en: 'A mighty shield radiating divine light to your noble allies to engulf them in waves of valor.',
       ru: 'Могучий щит, излучающий божественный свет вашим благородным союзникам, чтобы поглотить их волнами храбрости.',
       es: 'Un poderoso escudo que irradia luz divina a tus nobles aliados para envolverlos en olas de valor.',
-      fr: 'Un puissant bouclier rayonnant la lumière divine à vos nobles alliés pour les engloutir dans des vagues de vaillance.',
+      fr: 'Un puissant bouclier rayonnant de la lumière divine vers vos nobles alliés pour les engloutir dans des vagues de vaillance',
       de: 'Ein mächtiger Schild, der göttliches Licht auf deine edlen Verbündeten ausstrahlt, um sie in Wellen der Tapferkeit zu versenken.',
       pt: 'Um poderoso escudo que irradia luz divina aos seus nobres aliados para os envolver em ondas de valor.',
       ko: '고귀한 동맹국에 신성한 빛을 발산하는 강력한 방패가 그들을 용맹 한 물결에 잠기 게합니다.',
@@ -244,13 +257,15 @@ export default [
       sv: 'En mäktig sköld som utstrålar gudomligt ljus till dina ädla allierade för att uppsluka dem i vågens vågor.',
       ht: 'Yon gwo plak pwotèj vanyan radyasyon diven limyè a alye nòb ou a ap vale tèren yo nan vag nan sòlda.',
       it: 'Un potente scudo che irradia luce divina ai vostri nobili alleati per inghiottirli in onde di valore.',
-      hi: 'एक महान ढाल अपने महान सहयोगियों के लिए दिव्य प्रकाश विकीर्ण करने के लिए उन्हें वीरता की लहरों में संलग्न।',
+      hi: 'एक महान ढाल जो अपनी दिव्य किरणो से आपके साथियों को साहस की लहरों से भर देती है।',
       tl: 'Ang isang makapangyarihang kalasag na nagpapaikut-ikot ng banal na liwanag sa iyong mga marangal na kaalyado upang mapuksa sila sa mga alon ng lakas ng loob.',
       el: 'Μία ισχυρή ασπίδα που εκπέμπει θεϊκό φως στους ευγενείς σας συμμάχους για να τους κατακλύσει σε κύματα ανδρείας.',
       bg: 'Могъщ щит, излъчващ божествена светлина към вашите благородни съюзници, за да ги погълне във вълни на храброст.',
       cs: 'Silný štít, který vyzařuje božské světlo svým šlechtickým spojencům, aby je zachvátili ve vlnách srdnatosti.',
       ja: '強大な盾はあなたの高貴な同盟国に神の光を放射して彼らを勇気の波に包み込みます。',
-      tr: 'Cesur müttefiklerinize ilahi ışık yayan güçlü bir kalkan. Bu cesaret dalgaları ile onları kapsar.'
+      tr: 'Cesur müttefiklerinize ilahi ışık yayan güçlü bir kalkan. Bu cesaret dalgaları ile onları kapsar.',
+      da: 'Et mægtigt skild udstråler guddommeligt lys til dine ædle allierede for at opsluge dem i bølger af værdighed.',
+      ro: 'Un scut puternic ce radiază lumină divină către nobilii tăi aliați pentru a-i învălui în valuri de vitejie.'
     }
   }
 
